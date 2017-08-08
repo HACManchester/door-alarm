@@ -30,7 +30,7 @@ void setup() {
  * Produces a single chirp. 
  * Realistic minimum time is 100ms due to the sounder circuitry.
  */
-void chirp(){
+void chirp() {
     digitalWrite(ALARM_PIN, HIGH);
     delay(100);
     digitalWrite(ALARM_PIN, LOW);
